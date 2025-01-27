@@ -6,7 +6,7 @@ import MenuBar from "./components/menuBar.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";
 import Skill from "./components/skill.js";
-import Experience from "./components/experience.js";
+
 import Project from "./components/project.js";
 import Contact from "./components/contact.js";
 
@@ -35,9 +35,8 @@ const App = () => {
         <Element name="skills" className="element">
           <Skill />
         </Element>
-        <Element name="experience" className="element">
-          <Experience />
-        </Element>
+        
+        
         <Element name="projects" className="element">
           <Project />
         </Element>
